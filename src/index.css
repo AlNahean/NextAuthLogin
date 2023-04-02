@@ -1,0 +1,15 @@
+/* // Workaround to remove autofill color from inputs */
+input,
+select {
+  color: #fff !important;
+  -webkit-text-fill-color: #fff !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+}
+.index-page-container {
+  min-height: 100vh !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
